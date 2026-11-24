@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+header {
+    background: #101f35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.hero {
+    background: #163d65;
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+#booking {
+    background: white;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+input, select {
+    width: 100%;
+    padding: 13px;
+    margin: 10px 0 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #ff9d00;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68c00;
+}
+
+#fare {
+    text-align: center;
+    color: #16833b;
+}
+
+footer {
+    background: #101f35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.route {
+    background: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin: 25px auto;
+    max-width: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.route h2 {
+    color: #163d65;
+}
+
+.route h3 {
+    color: #e68c00;
+    font-size: 24px;
+}
+.contact {
+    background: #163d65;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.contact h2 {
+    color: #ff9d00;
+    font-size: 26px;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 12px;
+}
+.call-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px;
+    background: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+/* Mobile Friendly Design */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .hero {
+        padding: 40px 15px;
+    }
+
+    .hero h2 {
+        font-size: 25px;
+    }
+
+    #booking {
+        width: 92%;
+        margin: 20px auto;
+        padding: 18px;
+    }
+
+    .route {
+        width: 92%;
+        padding: 20px;
+    }
+
+    .cab-photo {
+        width: 100%;
+        height: 220px;
+    }
+
+    .contact {
+        padding: 20px 10px;
+    }
+
+    button {
+        font-size: 17px;
+    }
+
+    iframe {
+        height: 280px;
+    }
+}
